@@ -129,6 +129,7 @@ app.use("/", userRouter);
 
 app.all("*", (req, res, next) => {
   next(new ExpressError("Page not found", 404)); //    this is for all routes that doesn't exist     and this is my custom error made withe the class ExpressError
+  res.redirect("/listings");
 });
 
 //    error handling middleware
