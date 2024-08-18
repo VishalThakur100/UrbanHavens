@@ -1,0 +1,168 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+.navbar {
+  height: 5rem;
+}
+
+.fa-compass {
+  color: #f9322f;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+.fa-brands {
+  color: #222222;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info {
+  display: flex;
+  height: 100%;
+  background-color: #f5f5f5;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: space-evenly;
+}
+
+.f-info-socials, .f-info-item {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* .edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+} */
+
+/* .listing-image {
+  width: 50%;
+  height: 50%;
+} */
+
+/* .btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+} */
+
+/* button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+} */
+
+/* .edit-btn, .del {
+  margin-top: 20px;
+  margin-left: 20px;
+} */
+
+/* card */
+.card {
+  margin-bottom: 2rem !important;
+  border: none !important;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  height: 40vh;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 1rem !important;
+}
+
+.card-text {
+  font-weight: 400 !important;
+}
+
+.listing_link {
+  text-decoration: none;
+}
+
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+
+.add-btn,.edit-btn {
+  border: none !important;
+  background-color: #f9322f !important;
+  width: 100px;
+}
+
+/* show image */
+.show-img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.btns{
+  display: flex;
+
+}
+.edit{
+  width: 100px;
+}
+.show-card{
+  /* margin-top: 2rem; */
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.del{
+  color: white !important;
+}
+
+/* review card  */
+.reviewCard{
+  border: 1px solid black !important;
+  margin-bottom: 2rem !important;
+}
+
+/* .nav{
+  margin-top: 8px !important;
+} */
